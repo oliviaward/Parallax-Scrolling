@@ -1,0 +1,50 @@
+h1 {
+    color: blue;
+
+}
+#card {
+  max-width: 200px;
+  top: 600px;
+}
+
+
+.example { 
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2014%2F07%2F23%2Fupshot%2Fwhat-the-internet-can-see-from-your-cat-pictures.html&psig=AOvVaw3RZ-c0KFWcYKyeC83mi8LZ&ust=1642785177326000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNj9wOrpwPUCFQAAAAAdAAAAABAE);
+
+
+    /* Set the height */ height: 100%;
+    
+    
+    /* Create a parallax effect */
+    
+    
+    background-attachment: fixed;
+    
+    
+    background-position: center;
+    
+    
+    background-repeat: no-repeat;
+    
+    
+    background-size: cover; 
+}
+
+
+@media only screen and (max-device-width: 1366px) {
+
+
+    .example {
+  
+  
+  background-attachment: scroll;
+  
+  
+    }
+  
+  
+  }
+  img {
+    position: absolute;
+    /*transform: translate3d(500px, 500px, 0)*/
+  }
